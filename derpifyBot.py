@@ -1,6 +1,8 @@
 import argparse, sys, time, praw, json
 from random import randrange as rr
-
+"""
+mods for steve
+"""
 
 def initReddit():
 	with open('creds.json') as c:
